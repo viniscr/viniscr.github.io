@@ -4,69 +4,57 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>Still curious about me?</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+        You can check all my projects available on my GitHub profile
       </p>
       <ul className="actions">
         <li>
-          <Link to="/generic" className="button">
-            Learn More
-          </Link>
+          <a href="https://github.com/viniscr" className="button">
+            Check my GitHub profile
+          </a>
         </li>
       </ul>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Follow me</h2>
       <dl className="alt">
         <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+        <dd>Florianopolis &bull; Santa Catarina &bull; Brasil</dd>
         <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>(+55) 48 99672-5391</dd>
         <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
+          <a href="https://codebushi.com">alencarvi@gmail.com</a>
         </dd>
       </dl>
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/huntaroSan"
-            className="icon fa-twitter alt"
+            href="https://twitter.com/vinsport"
+            className="icon fab fa-twitter alt"
           >
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="https://codebushi.com" className="icon fa-facebook alt">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
+          <a href="https://codebushi.com" className="icon fab fa-instagram alt">
             <span className="label">Instagram</span>
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
-            className="icon fa-github alt"
+            href="https://github.com/viniscr"
+            className="icon fab fa-github alt"
           >
             <span className="label">GitHub</span>
           </a>
         </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
+        
       </ul>
     </section>
     <p className="copyright">
-      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a> & implementation <a href="https://github.com/viniscr">Vinícius Barbosa</a>.
     </p>
   </footer>
 )

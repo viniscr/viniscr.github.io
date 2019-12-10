@@ -41,21 +41,20 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Introduction</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  A passionate full stack web developer who is always curious
+                  about learning new technologies. I'm currently dedicated on 
+                  improve my knowlodge on Node.js and React.js
                 </p>
-                <ul className="actions">
+                {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <span className="image">
                 <img src={pic01} alt="" />
@@ -65,122 +64,103 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Projects</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fas fa-film"></span>
+                <h3>The Movie Finder</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Wep App built in ReactJS to see upcoming movies, search for movies in general, and see their details.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fab fa-instagram"></span>
+                <h3>Instaclone</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Simple project build with React Native which recreate Instagram's feed
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fas fa-code"></span>
+                <h3>AirCNC</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  ReactJS application for the frontend of AirCNC, an app to share places of your company with developers that need spaces to work.
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+            
           </section>
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Skills</h2>
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon fab fa-html5"></span>
+                <strong>HTML5</strong>
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <span className="icon fab fa-css3-alt"></span>
+                <strong>CSS</strong>
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <span className="icon fab fa-js-square"></span>
+                <strong>JS</strong>
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
+                <span className="icon fab fa-react"></span>
+                <strong>React</strong>
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <span className="icon fas fa-user-astronaut"></span>
+                <strong>Gatsby</strong>
               </li>
             </ul>
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+              I'm a computer science graduated student at Faculdade de Ciências Aplicadas
+              e Sociais de Petrolina in Brazil. I started my developer carreer as an intern
+              in Java Web Development, using technologies like Java Server Faces, Primefaces,
+              JPA and Hibernate. After the internship I dedicated my time on learning AngularJS 
+              and then Angular to built componentized web apps. My first job as a developer was
+              to work on development of web applications using AngularJS in a project and also 
+              Angular on other recent projects in the front-end. As backend technologies we used 
+              Flask on the older projects and migrated to Django on the recent projects to built REST API's.
+              Now, working as a Full Stack Developer at Arctouch I'm focusing on learning React.js and Node.js
+              that are our mainly used technologies. As a consequence I discovered Gatsby which is based on react
+              and as a personal project to fix my knowlodge I built this page using a Gatsby template.
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Experience</h2>
+              <div style={{textAlign: "left"}}>
+                
+                <h3>
+                  <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
+                  <b>Full Stack Developer at Arctouch</b>
+                </h3>
+                <p style={{textAlign: "justify"}}>
+                  On this position I'm now working on development of web applications for big clients around the world. 
+                  Our applications are mainly developed using React.js in frontend and Node.js on backend. 
+                  Also, we have some banner projects which we develop templates in HTML5, CSS and JavaScript to upload 
+                  on DoubleClick Studio for marketing campaingns.
+                </p>
+                <h3>
+                  <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
+                  <b>Full Stack Developer at Agrosatelite</b>
+                </h3>
+                <p style={{textAlign: "justify"}}>
+                  On this position I worked on development of web applications for territorial intelligence using the Angular
+                  framework to create frontend components and Python frameworks like Flask and Django for creating API's to 
+                  serve data in the backend. 
+                </p>
+              </div>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+        
+        
           </section>
         </div>
       </Layout>
