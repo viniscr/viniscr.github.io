@@ -6,7 +6,7 @@ const Footer = props => (
     <section>
       <h2>Still curious about me?</h2>
       <p>
-        You can check all my projects available on my GitHub profile
+        You can check all my available projects on my GitHub profile
       </p>
       <ul className="actions">
         <li>
