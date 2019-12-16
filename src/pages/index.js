@@ -68,21 +68,21 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fas fa-film"></span>
+                <a className="icon major style1 fas fa-film" href="https://github.com/viniscr/movies-finder-frontend"><span></span></a>
                 <h3>The Movie Finder</h3>
                 <p>
                   Wep App built in ReactJS to see upcoming movies, search for movies in general, and see their details.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fab fa-instagram"></span>
+                <a className="icon major style3 fab fa-instagram" href="https://github.com/viniscr/instaclone"><span></span></a>
                 <h3>Instaclone</h3>
                 <p>
                   Simple project build with React Native which recreate Instagram's feed
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fas fa-code"></span>
+                <a className="icon major style5 fas fa-code" href="https://github.com/viniscr/aircnc-frontend"><span></span></a>
                 <h3>AirCNC</h3>
                 <p>
                   ReactJS application for the frontend of AirCNC, an app to share places of your company with developers that need spaces to work.
