@@ -21,8 +21,6 @@ const Footer = props => (
       <dl className="alt">
         <dt>Address</dt>
         <dd>Florianopolis &bull; Santa Catarina &bull; Brasil</dd>
-        <dt>Phone</dt>
-        <dd>(+55) 48 99672-5391</dd>
         <dt>Email</dt>
         <dd>
           <a href="https://codebushi.com">alencarvi@gmail.com</a>
@@ -31,15 +29,15 @@ const Footer = props => (
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/vinsport"
+            href="https://twitter.com/vinisport"
             className="icon fab fa-twitter alt"
           >
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="https://codebushi.com" className="icon fab fa-instagram alt">
-            <span className="label">Instagram</span>
+          <a href="https://www.linkedin.com/in/vinicius-barbosa" className="icon fab fa-linkedin alt">
+            <span className="label">Linkedin</span>
           </a>
         </li>
         <li>

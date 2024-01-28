@@ -45,8 +45,11 @@ class Index extends React.Component {
                 </header>
                 <p>
                   A passionate full stack web developer who is always curious
-                  about learning new technologies. I'm currently dedicated on 
-                  improve my knowlodge on Node.js and React.js
+                  about learning new technologies. Bachelor of Science in Computer Science, currently working as Tech Lead at VML Brazil. 
+                  <br></br>
+                  In my software development career I've had worked with different technologies like Python 
+                  (Flask and Django), Node.js, Java (JSF and Spring), AngularJS, Angular, React, Gatsby, Vue, 
+                  Wordpress and Adobe Experience Manager.
                 </p>
                 {/* <ul className="actions">
                   <li>
@@ -137,20 +140,38 @@ class Index extends React.Component {
             <header className="major">
               <h2>Experience</h2>
               <div style={{textAlign: "left"}}>
-                
                 <h3>
                   <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
-                  <b>Full Stack Developer at Arctouch</b>
+                  <b>Tech Lead at VML (2022 - present)</b>
                 </h3>
                 <p style={{textAlign: "justify"}}>
-                  On this position I'm now working on development of web applications for big clients around the world. 
-                  Our applications are mainly developed using React.js in frontend and Node.js on backend. 
-                  Also, we have some banner projects which we develop templates in HTML5, CSS and JavaScript to upload 
-                  on DoubleClick Studio for marketing campaingns.
+                  On this position I'm responsible for the architecture of Web solutions based in Adobe Experience Manager (AEM) 
+                  for US clients and local brazilian clientes. Working as a tech lead, I'm the technical reference working together
+                  with the client to turn their business needs into real features on their products.
                 </p>
                 <h3>
                   <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
-                  <b>Full Stack Developer at Agrosatelite</b>
+                  <b>Software Architect at Compass.uol (2021 - 2022)</b>
+                </h3>
+                <p style={{textAlign: "justify"}}>
+                  On this position I was in charge of architecting Web solutions based in Adobe Experience Manager (AEM) 
+                  for the biggest telecom company in Brazil. Moreover, I also worked a Tech Lead of the squad, being the 
+                  technical reference for the other devs. Besides the development work, I was also reponsible for conducting technical interviews and evaluating 
+                  candidates for the company's open roles.
+                </p>
+                <h3>
+                  <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
+                  <b>Full Stack Developer at Arctouch (2019 - 2021)</b>
+                </h3>
+                <p style={{textAlign: "justify"}}>
+                  On this position I worked on development of web applications for big clients around the world. 
+                  Our applications were mainly developed using React.js and Angular on the front-end and Node.js on the back-end. 
+                  I've also worked developing some banner projects where I built templates in HTML5, CSS and JavaScript to upload 
+                  on DoubleClick Studio for marketing campaingns of the agency.
+                </p>
+                <h3>
+                  <i className="fas fa-hashtag" style={{marginRight: "10px"}}></i>
+                  <b>Full Stack Developer at Agrosatelite (2018 - 2019)</b>
                 </h3>
                 <p style={{textAlign: "justify"}}>
                   On this position I worked on development of web applications for territorial intelligence using the Angular
