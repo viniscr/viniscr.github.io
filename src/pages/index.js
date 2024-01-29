@@ -146,7 +146,7 @@ class Index extends React.Component {
                 </h3>
                 <p style={{textAlign: "justify"}}>
                   On this position I'm responsible for the architecture of Web solutions based in Adobe Experience Manager (AEM) 
-                  for US clients and local brazilian clientes. Working as a tech lead, I'm the technical reference working together
+                  for US clients and local brazilian clients. Working as a tech lead, I'm the technical reference working together
                   with the client to turn their business needs into real features on their products.
                 </p>
                 <h3>
